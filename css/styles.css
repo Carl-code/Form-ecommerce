@@ -2,18 +2,21 @@ body{
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 .form{
-    background: rgba(255, 255, 255, 0.1);
     background: linear-gradient(rgba(0,0,0,.3),rgba(243,17,224,.3)), url(https://i.pinimg.com/originals/73/c2/66/73c26638c33add71034f9e32d75a4b80.jpg) center #505050;
     background-size: cover;
     border-radius: 25px;
-    padding: 50px;
-    max-width: 450px;
+    padding: 30px;
+    max-width: 400px;
     height: 600px;
     display: block;
     margin: auto;
     cursor: pointer;
+}
+hr{
+    margin-bottom: 80px;
 }
 .uppercase {
     text-transform: uppercase;
@@ -26,11 +29,32 @@ label {
     margin-bottom: 20px;
 }
 .rounded {
-    border-radius: 15px;
-    padding: 5px;
-    
+    background-color: rgb(0,0,0, 0.4);
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    color: white;
 }
 .form h1 {
+    font-weight: 100;
     text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.checkbox {
+    display: inline-block;
+}
+.button {
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #1d63f5;
+    margin-bottom: 50px;
+}
+p {
     text-align: center;
 }
