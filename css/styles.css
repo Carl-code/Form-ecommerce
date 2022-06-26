@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.form{
+    background: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(rgba(0,0,0,.3),rgba(243,17,224,.3)), url(https://i.pinimg.com/originals/73/c2/66/73c26638c33add71034f9e32d75a4b80.jpg) center #505050;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 50px;
+    max-width: 450px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+.rounded {
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+.form h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
